@@ -12,6 +12,7 @@ body{
     text-align: center;
     
 }
+
 h1{
     font-family: 'street';
     color: #DE0178;
@@ -52,10 +53,9 @@ h1{
     border-radius: 20px;
     margin-top: 35px;
     position: absolute;
-    
+    font-size: 24px;
 }
 button{
-    width: ;
     height: 40px;
     position: relative;
     margin-top: 20px;
@@ -94,4 +94,56 @@ ul li a {
 p{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+}
+@media (min-width: 390px) and (max-width: 844px){
+    #pesquisar{
+        padding-left: 36px;
+        margin-top: 20px;
+        width: 25em;
+        font-size: 13px;
+    }
+    #google{
+        width: 20px;
+        border-radius: 20px;
+        margin-top: 35px;
+        position: absolute;
+        font-size: 24px;
+    }
+    #config{
+        position: absolute;
+        margin-top: -300px;
+        margin-left: 180px
+        
+    }
+    #logos{
+        width: 3em;
+        margin-top: 7px;
+        border-radius: 2px;
+    }
+    button{
+        height: 20px;
+        position: relative;
+        margin-top: 20px;
+        background-color: #292831;
+        border-bottom: none;
+        margin-left: 10px;
+    }
+    ul li{
+        display: inline-block;
+        list-style: none;
+        margin: 40px 32px;
+        
+        width: 80px;
+        height: 70px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px #35333d;
+        
+        
+    }
+    #logos-github{
+        width: 3em;
+        margin-top: 9px;
+        background-color: #454453;
+        border-radius: 20px;
+    }
 }
